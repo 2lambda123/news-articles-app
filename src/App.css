@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  background-color: #e4b7b6;
+  display: flex;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 15px;
+}
+
+.Collapsible { 
+  background: #a7100c;
+  border-radius: 10px;
+  font-size: 17px; 
+  margin-bottom: 10px;
+  padding: 15px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+.Collapsible__contentOuter {
+  background: #af2724;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Collapsible__trigger {
+  font-weight: bold;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
